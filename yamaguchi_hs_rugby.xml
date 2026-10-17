@@ -1,19 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <rss version="2.0">
   <channel>
-    <title>山口県高校ラグビー News &amp; Topics</title>
+    <title>山口県高校ラグビー専門部</title>
     <link>https://www.yamaguchi-koutairen-rugby.com/</link>
     <description>山口県高校体育連盟ラグビー専門部公式サイト トップページ News &amp; Topics 更新情報</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 17 Oct 2026 18:44:06 +0900</lastBuildDate>
-    <item>
-      <title>第13回全国高等学校７人制ラグビーフットボール大会山口県予選の画像を【ギャラリー】へ掲載。</title>
-      <link>https://www.yamaguchi-koutairen-rugby.com/ギャラリー/2026年度/第13回全国高等学校7人制ラグビーフットボール大会山口県予選/</link>
-      <guid isPermaLink="false">a316ce10e1c47bb113d7b4b9c4f95d6aecf50373c6b6897dd6ef6c27dbd3f009</guid>
-      <pubDate>Thu, 24 Sep 2026 12:00:00 +0900</pubDate>
-      <description>[ギャラリー] 第13回全国高等学校７人制ラグビーフットボール大会山口県予選の画像を【ギャラリー】へ掲載。</description>
-      <category>ギャラリー</category>
-    </item>
+    <lastBuildDate>Sat, 17 Oct 2026 18:57:06 +0900</lastBuildDate>
     <item>
       <title>令和8年度合同teamミニ合宿の画像を【ギャラリー】へ掲載。</title>
       <link>https://www.yamaguchi-koutairen-rugby.com/ギャラリー/2026年度/令和８年度合同teamミニ合宿-8月10日-11日/</link>
@@ -23,10 +15,18 @@
       <category>ギャラリー</category>
     </item>
     <item>
+      <title>第13回全国高等学校７人制ラグビーフットボール大会山口県予選の画像を【ギャラリー】へ掲載。</title>
+      <link>https://www.yamaguchi-koutairen-rugby.com/ギャラリー/2026年度/第13回全国高等学校7人制ラグビーフットボール大会山口県予選/</link>
+      <guid isPermaLink="false">a316ce10e1c47bb113d7b4b9c4f95d6aecf50373c6b6897dd6ef6c27dbd3f009</guid>
+      <pubDate>Thu, 24 Sep 2026 11:59:59 +0900</pubDate>
+      <description>[ギャラリー] 第13回全国高等学校７人制ラグビーフットボール大会山口県予選の画像を【ギャラリー】へ掲載。</description>
+      <category>ギャラリー</category>
+    </item>
+    <item>
       <title>令和８年度秋季長北大会・山防大会 兼 山口県ルーキーチャレンジラグビーフットボール競技_【最終結果】</title>
       <link>https://www.yamaguchi-koutairen-rugby.com/試合情報/令和8-2026-年度/令和8年度秋季長北大会-山防支部大会-兼-山口県ルーキーチャレンジラグビーフットボール競技/</link>
       <guid isPermaLink="false">6894186f67f6889c4246e7f45a06ad79020f72d30172cdfe79f643e0956422e6</guid>
-      <pubDate>Sun, 13 Sep 2026 12:00:00 +0900</pubDate>
+      <pubDate>Sun, 13 Sep 2026 11:59:58 +0900</pubDate>
       <description>[試合情報] 令和８年度秋季長北大会・山防大会 兼 山口県ルーキーチャレンジラグビーフットボール競技_【最終結果】</description>
       <category>試合情報</category>
     </item>
@@ -34,7 +34,7 @@
       <title>第106回全国高等学校ラグビーフットボール大会山口県予選_トーナメント表</title>
       <link>https://www.yamaguchi-koutairen-rugby.com/試合情報/令和8-2026-年度/第106回全国高等学校ラグビーフットボール大会山口県予選/</link>
       <guid isPermaLink="false">5b03b0948d226e128f272af2c19f62abc886faa00eeb430a0407dd53729891d9</guid>
-      <pubDate>Wed, 09 Sep 2026 12:00:00 +0900</pubDate>
+      <pubDate>Wed, 09 Sep 2026 11:59:57 +0900</pubDate>
       <description>[試合情報] 第106回全国高等学校ラグビーフットボール大会山口県予選_トーナメント表</description>
       <category>試合情報</category>
     </item>
@@ -42,7 +42,7 @@
       <title>令和８年度秋季長北大会・山防大会 兼 山口県ルーキーチャレンジラグビーフットボール競技_リーグ戦表</title>
       <link>https://www.yamaguchi-koutairen-rugby.com/試合情報/令和8-2026-年度/令和8年度秋季長北大会-山防支部大会-兼-山口県ルーキーチャレンジラグビーフットボール競技/</link>
       <guid isPermaLink="false">c814a7654fc15e4c00c284659ba2f7e2665e5f0d3beb0c185250b4a72410b550</guid>
-      <pubDate>Wed, 09 Sep 2026 12:00:00 +0900</pubDate>
+      <pubDate>Wed, 09 Sep 2026 11:59:56 +0900</pubDate>
       <description>[試合情報] 令和８年度秋季長北大会・山防大会 兼 山口県ルーキーチャレンジラグビーフットボール競技_リーグ戦表</description>
       <category>試合情報</category>
     </item>
@@ -50,7 +50,7 @@
       <title>がんばれ合同～enjoy rugby～ 写真展</title>
       <link>https://www.yamaguchi-koutairen-rugby.com/イベント/令和8-2026-年度/がんばれ合同-enjoy-rugby/</link>
       <guid isPermaLink="false">396facc472dd06f98f4f4d800fcbd93edc5516c033b87d73a24dc3718bd06445</guid>
-      <pubDate>Sun, 06 Sep 2026 12:00:00 +0900</pubDate>
+      <pubDate>Sun, 06 Sep 2026 11:59:55 +0900</pubDate>
       <description>[イベント] がんばれ合同～enjoy rugby～ 写真展</description>
       <category>イベント</category>
     </item>
@@ -58,7 +58,7 @@
       <title>第13回全国高等学校７人制ラグビーフットボール大会山口県予選【最終結果】</title>
       <link>https://www.yamaguchi-koutairen-rugby.com/試合情報/令和8-2026-年度/第13回全国高等学校７人制ラグビーフットボール大会山口県予選/</link>
       <guid isPermaLink="false">74659a2aeb4a06f1bef1f1f22a63992f9a032fd819a8abc354be8e9d0c25220c</guid>
-      <pubDate>Sat, 30 May 2026 12:00:00 +0900</pubDate>
+      <pubDate>Sat, 30 May 2026 11:59:54 +0900</pubDate>
       <description>[試合情報] 第13回全国高等学校７人制ラグビーフットボール大会山口県予選【最終結果】</description>
       <category>試合情報</category>
     </item>
@@ -66,7 +66,7 @@
       <title>第13回全国高等学校７人制ラグビーフットボール大会山口県予選</title>
       <link>https://www.yamaguchi-koutairen-rugby.com/試合情報/令和8-2026-年度/第13回全国高等学校７人制ラグビーフットボール大会山口県予選/</link>
       <guid isPermaLink="false">0273f40a3c72109e8c1eb8f794ab8a99e6d81fc7b2947b8cf8191a9962328dd4</guid>
-      <pubDate>Fri, 15 May 2026 12:00:00 +0900</pubDate>
+      <pubDate>Fri, 15 May 2026 11:59:53 +0900</pubDate>
       <description>[試合情報] 第13回全国高等学校７人制ラグビーフットボール大会山口県予選</description>
       <category>試合情報</category>
     </item>
@@ -74,7 +74,7 @@
       <title>第69回中国高等学校ラグビーフットボール大会山口県予選の画像を【ギャラリー】へ掲載。</title>
       <link>https://www.yamaguchi-koutairen-rugby.com/ギャラリー/2026年度/第69回中国高等学校ラグビーフットボール大会山口県予選/</link>
       <guid isPermaLink="false">f16bcdd415a34af2a5af3ee443704165a7ce23066ec3ad5f05019468a50fd729</guid>
-      <pubDate>Mon, 11 May 2026 12:00:00 +0900</pubDate>
+      <pubDate>Mon, 11 May 2026 11:59:52 +0900</pubDate>
       <description>[ギャラリー] 第69回中国高等学校ラグビーフットボール大会山口県予選の画像を【ギャラリー】へ掲載。</description>
       <category>ギャラリー</category>
     </item>
@@ -82,7 +82,7 @@
       <title>第69回中国高等学校ラグビーフットボール大会_最終結果</title>
       <link>https://www.yamaguchi-koutairen-rugby.com/試合情報/令和8-2026-年度/第69回中国高等学校ラグビーフットボール大会/</link>
       <guid isPermaLink="false">28acec058986e446affde7f2a0ec7b18181136fe358462b265ae3bbe3e21f32c</guid>
-      <pubDate>Sun, 10 May 2026 12:00:00 +0900</pubDate>
+      <pubDate>Sun, 10 May 2026 11:59:51 +0900</pubDate>
       <description>[試合情報] 第69回中国高等学校ラグビーフットボール大会_最終結果</description>
       <category>試合情報</category>
     </item>
@@ -90,47 +90,47 @@
       <title>第69回中国高等学校ラグビーフットボール大会_１回戦結果</title>
       <link>https://www.yamaguchi-koutairen-rugby.com/試合情報/令和8-2026-年度/第69回中国高等学校ラグビーフットボール大会/</link>
       <guid isPermaLink="false">64a161e8a50a0d65ce9f8934eea5c673150d0586308596f14c789d90df9561d1</guid>
-      <pubDate>Sat, 09 May 2026 12:00:00 +0900</pubDate>
+      <pubDate>Sat, 09 May 2026 11:59:50 +0900</pubDate>
       <description>[試合情報] 第69回中国高等学校ラグビーフットボール大会_１回戦結果</description>
-      <category>試合情報</category>
-    </item>
-    <item>
-      <title>第69回中国高等学校ラグビーフットボール大会_山口県予選【最終結果】</title>
-      <link>https://www.yamaguchi-koutairen-rugby.com/試合情報/令和8-2026-年度/第69回中国高等学校ラグビーフットボール大会/第69回中国高等学校ラグビーフットボール大会山口県予選/</link>
-      <guid isPermaLink="false">27a1845f48b5aee757a0c83a7fd4897448fb5b90a4b30522b0c6c0c1e5710b01</guid>
-      <pubDate>Sun, 26 Apr 2026 12:00:00 +0900</pubDate>
-      <description>[試合情報] 第69回中国高等学校ラグビーフットボール大会_山口県予選【最終結果】</description>
       <category>試合情報</category>
     </item>
     <item>
       <title>第69回中国高等学校ラグビーフットボール大会_大会要項他</title>
       <link>https://www.yamaguchi-koutairen-rugby.com/試合情報/令和8-2026-年度/第69回中国高等学校ラグビーフットボール大会/</link>
       <guid isPermaLink="false">08e3acde011b9ee2e1baf38712c7e1242015267446787639962a4e2984da6372</guid>
-      <pubDate>Sun, 26 Apr 2026 12:00:00 +0900</pubDate>
+      <pubDate>Sun, 26 Apr 2026 11:59:49 +0900</pubDate>
       <description>[試合情報] 第69回中国高等学校ラグビーフットボール大会_大会要項他</description>
+      <category>試合情報</category>
+    </item>
+    <item>
+      <title>第69回中国高等学校ラグビーフットボール大会_山口県予選【最終結果】</title>
+      <link>https://www.yamaguchi-koutairen-rugby.com/試合情報/令和8-2026-年度/第69回中国高等学校ラグビーフットボール大会/第69回中国高等学校ラグビーフットボール大会山口県予選/</link>
+      <guid isPermaLink="false">27a1845f48b5aee757a0c83a7fd4897448fb5b90a4b30522b0c6c0c1e5710b01</guid>
+      <pubDate>Sun, 26 Apr 2026 11:59:48 +0900</pubDate>
+      <description>[試合情報] 第69回中国高等学校ラグビーフットボール大会_山口県予選【最終結果】</description>
       <category>試合情報</category>
     </item>
     <item>
       <title>令和8年度（2026）事業計画一覧表を掲載</title>
       <link>https://www.yamaguchi-koutairen-rugby.com/専門部について/事業計画/</link>
       <guid isPermaLink="false">bc019d720c36f290ba7c8d613c4210a02227549deba9865c09db3e67b296527c</guid>
-      <pubDate>Sun, 26 Apr 2026 12:00:00 +0900</pubDate>
+      <pubDate>Sun, 26 Apr 2026 11:59:47 +0900</pubDate>
       <description>令和8年度（2026）事業計画一覧表を掲載</description>
-    </item>
-    <item>
-      <title>第27回全国高等学校選抜ラグビーフットボール大会山口県予選の画像を【ギャラリー】へ掲載。</title>
-      <link>https://www.yamaguchi-koutairen-rugby.com/ギャラリー/2025年度/第27回全国高等学校選抜ラグビーフットボール大会山口県予選/</link>
-      <guid isPermaLink="false">4bdc734a07b70d23e258a0fda7476074500166511b33c1bfea31d1b776dd100f</guid>
-      <pubDate>Mon, 23 Mar 2026 12:00:00 +0900</pubDate>
-      <description>[ギャラリー] 第27回全国高等学校選抜ラグビーフットボール大会山口県予選の画像を【ギャラリー】へ掲載。</description>
-      <category>ギャラリー</category>
     </item>
     <item>
       <title>第27回全国高等学校選抜ラグビーフットボール大会中国ブロック予選の画像を【ギャラリー】へ掲載。</title>
       <link>https://www.yamaguchi-koutairen-rugby.com/ギャラリー/2025年度/第27回全国高等学校選抜ラグビーフットボール大会中国ブロック予選/</link>
       <guid isPermaLink="false">5f4a79847fddc41f124d17886b8147e6555c4be3ddf309de44b3aaeaf58e33c7</guid>
-      <pubDate>Mon, 23 Mar 2026 12:00:00 +0900</pubDate>
+      <pubDate>Mon, 23 Mar 2026 11:59:46 +0900</pubDate>
       <description>[ギャラリー] 第27回全国高等学校選抜ラグビーフットボール大会中国ブロック予選の画像を【ギャラリー】へ掲載。</description>
+      <category>ギャラリー</category>
+    </item>
+    <item>
+      <title>第27回全国高等学校選抜ラグビーフットボール大会山口県予選の画像を【ギャラリー】へ掲載。</title>
+      <link>https://www.yamaguchi-koutairen-rugby.com/ギャラリー/2025年度/第27回全国高等学校選抜ラグビーフットボール大会山口県予選/</link>
+      <guid isPermaLink="false">4bdc734a07b70d23e258a0fda7476074500166511b33c1bfea31d1b776dd100f</guid>
+      <pubDate>Mon, 23 Mar 2026 11:59:45 +0900</pubDate>
+      <description>[ギャラリー] 第27回全国高等学校選抜ラグビーフットボール大会山口県予選の画像を【ギャラリー】へ掲載。</description>
       <category>ギャラリー</category>
     </item>
   </channel>
