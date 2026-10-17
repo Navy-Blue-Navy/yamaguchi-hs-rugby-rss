@@ -14,7 +14,7 @@ from urllib.parse import urljoin
 SOURCE_URL = "https://www.yamaguchi-koutairen-rugby.com/"
 OUTPUT_FILE = "yamaguchi_hs_rugby.xml"
 
-FEED_TITLE = "山口県高校ラグビー News & Topics"
+FEED_TITLE = "山口県高校ラグビー専門部"
 FEED_LINK = SOURCE_URL
 FEED_DESCRIPTION = (
     "山口県高校体育連盟ラグビー専門部公式サイト "
@@ -41,9 +41,7 @@ def fetch(url):
 
     for attempt in range(1, 4):
         try:
-            print(
-                f"取得試行 {attempt}/3: {url}"
-            )
+            print(f"取得試行 {attempt}/3: {url}")
 
             response = requests.get(
                 url,
@@ -57,24 +55,16 @@ def fetch(url):
             )
 
             response.raise_for_status()
-
-            response.encoding = (
-                response.apparent_encoding
-            )
+            response.encoding = response.apparent_encoding
 
             return response.text
 
         except Exception as e:
             last_error = e
-
-            print(
-                f"取得失敗: {e}"
-            )
+            print(f"取得失敗: {e}")
 
             if attempt < 3:
-                print(
-                    "10秒待って再試行します。"
-                )
+                print("10秒待って再試行します。")
                 time.sleep(10)
 
     raise RuntimeError(
@@ -84,11 +74,7 @@ def fetch(url):
 
 
 def clean_text(text):
-    return re.sub(
-        r"\s+",
-        " ",
-        text
-    ).strip()
+    return re.sub(r"\s+", " ", text).strip()
 
 
 def make_guid(link, published, title):
@@ -127,9 +113,7 @@ def extract_category(text):
     )
 
     if match:
-        return clean_text(
-            match.group(1)
-        )
+        return clean_text(match.group(1))
 
     return ""
 
@@ -151,6 +135,8 @@ def extract_articles(html):
         f"テキストモジュール候補: "
         f"{len(modules)}件"
     )
+
+    source_order = 0
 
     for module in modules:
         module_text = clean_text(
@@ -186,7 +172,7 @@ def extract_articles(html):
             continue
 
         try:
-            published = datetime(
+            base_date = datetime(
                 int(date_match.group(1)),
                 int(date_match.group(2)),
                 int(date_match.group(3)),
@@ -209,16 +195,23 @@ def extract_articles(html):
 
         key = (
             link,
-            published.strftime("%Y-%m-%d"),
+            base_date.strftime("%Y-%m-%d"),
             title
         )
 
         if key in seen:
             continue
 
-        seen.add(
-            key
+        seen.add(key)
+
+        # トップページ上で上にある記事ほど大きな仮想時刻を与える。
+        # 実際の掲載時刻ではなく、同日記事の公式掲載順を
+        # RSS/Feedlyでも維持するためだけに使用する。
+        published = base_date - timedelta(
+            seconds=source_order
         )
+
+        source_order += 1
 
         if category:
             description = (
@@ -232,7 +225,7 @@ def extract_articles(html):
             "link": link,
             "guid": make_guid(
                 link,
-                published,
+                base_date,
                 title
             ),
             "published": published,
@@ -241,10 +234,7 @@ def extract_articles(html):
         })
 
     articles.sort(
-        key=lambda x: (
-            x["published"],
-            x["title"]
-        ),
+        key=lambda x: x["published"],
         reverse=True
     )
 
@@ -307,15 +297,15 @@ def load_existing():
             )
 
             if published.tzinfo is None:
-                published = (
-                    published.replace(
-                        tzinfo=JST
-                    )
+                published = published.replace(
+                    tzinfo=JST
                 )
 
         except Exception:
             continue
 
+        # 秒単位の仮想時刻はキーには使わない。
+        # 同じ記事を次回実行時にも正しく同一記事として認識する。
         key = (
             link,
             published
@@ -429,9 +419,7 @@ def build_rss(articles):
                 "category"
             ).text = article["category"]
 
-    tree = ET.ElementTree(
-        rss
-    )
+    tree = ET.ElementTree(rss)
 
     try:
         ET.indent(
@@ -495,23 +483,18 @@ def main():
             if key not in existing
         )
 
-        merged = dict(
-            existing
-        )
+        merged = dict(existing)
 
-        merged.update(
-            current_by_key
-        )
+        # 現在トップページにある記事は、
+        # 最新の公式掲載順で既存データを上書きする。
+        merged.update(current_by_key)
 
         all_articles = list(
             merged.values()
         )
 
         all_articles.sort(
-            key=lambda x: (
-                x["published"],
-                x["title"]
-            ),
+            key=lambda x: x["published"],
             reverse=True
         )
 
@@ -537,7 +520,7 @@ def main():
             print(
                 article["published"]
                 .astimezone(JST)
-                .strftime("%Y-%m-%d"),
+                .strftime("%Y-%m-%d %H:%M:%S"),
                 category
                 + article["title"]
             )
